@@ -27,7 +27,7 @@ Pero decidí que no iba a limitarme a entregarles una serie de gráficos planos 
 *Foco del CEO y CMO: Diagnóstico Macro y Resiliencia Temporal*
 
 <p align="center">
-  <img src="ruta-a-tu-imagen-pagina-1.png" alt="Desempeño Comercial y Pronóstico Global" width="90%">
+  <img src="https://github.com/Elian-digital/powerbi-executive-analytics-case/blob/main/images/pagina-1.png?raw=true" alt="Desempeño Comercial y Pronóstico Global" width="90%">
 </p>
 
 *   **Mitigación del Riesgo Operativo:** Facturar **$9 mill.** repartidos en un catálogo de **3.780 SKUs** demuestra que el negocio goza de una excelente diversificación de ingresos; la estructura comercial no depende de productos estrella, blindando la estabilidad financiera ante variaciones en la demanda.
@@ -40,7 +40,7 @@ Pero decidí que no iba a limitarme a entregarles una serie de gráficos planos 
 *Foco del CMO: Alertas de Abandono y Salud del Funnel*
 
 <p align="center">
-  <img src="ruta-a-tu-imagen-pagina-2.png" alt="Análisis y Comportamiento de Clientes" width="90%">
+  <img src="https://github.com/Elian-digital/powerbi-executive-analytics-case/blob/main/images/pagina-2.png?raw=true" alt="Análisis y Comportamiento de Clientes" width="90%">
 </p>
 
 *   **Fuga en el Onboarding (Abandono Temprano):** La alta densidad de puntos rojos concentrados en la zona de baja frecuencia del gráfico de dispersión confirma que nuestro **43% de inactividad global (+60 días)** ocurre inmediatamente después de los primeros pedidos. El foco de marketing debe ser optimizar la experiencia de bienvenida y retención temprana.
@@ -53,7 +53,7 @@ Pero decidí que no iba a limitarme a entregarles una serie de gráficos planos 
 *Foco del CEO: Maximización del Margen e Inversión Eficiente*
 
 <p align="center">
-  <img src="ruta-a-tu-imagen-pagina-3.png" alt="Estrategia de Expansión Global" width="90%">
+  <img src="https://github.com/Elian-digital/powerbi-executive-analytics-case/blob/main/images/pagina-3.png?raw=true" alt="Estrategia de Expansión Global" width="90%">
 </p>
 
 *   **Prioridades de Expansión Premium:** **Australia y Singapur** se consolidan como los nichos más rentables debido a su elevado ticket medio (de hasta $2,5 mil). Representan una oportunidad óptima para expandir el negocio maximizando el margen con un bajo esfuerzo logístico.
@@ -67,10 +67,8 @@ Pero decidí que no iba a limitarme a entregarles una serie de gráficos planos 
 Para que los directivos pudieran consumir estos insights con un solo vistazo en una sola vista *scannable*, fue necesario transformar por completo la estructura técnica de los datos crudos:
 
 *   **Modelado Dimensional Avanzado (Star Schema):** La base de datos original venía integrada en una única tabla plana. Diseñé un modelo en estrella real, separando los datos lógicos en una tabla de hechos (`Fact_Sales`) vinculada a dimensiones limpias y optimizadas (`Dim_Customers`, `Dim_Products`, `Dim_Geography`).
-*   **Inteligencia de Tiempo con Dim_Calendar:** Desarrollé una tabla de calendario robusta mediante DAX para gestionar de forma nativa variables temporales (Año, Mes, Trimestre), evitando las jerarquías automáticas y habilitando la proyección analítica del pronóstico de ventas.
-*   **Gobernanza DAX (Carpeta de Medidas):** Centralicé la lógica de negocio estructurando todas las fórmulas de cálculo analítico (como tasas de inactividad, tickets promedio y distribución porcentual) dentro de una tabla vacía dedicada exclusivamente a albergar medidas formateadas bajo buenas prácticas.
-*   **Limpieza de Datos e Integridad:** Apliqué transformaciones previas en el motor de datos para excluir registros erróneos (cantidades inferiores a 1 unidad o precios unitarios negativos), garantizando que las métricas finales de la C-Suite estuvieran 100% libres de ruido operativo.
-*   **Diseño de Interfaz Ejecutiva:** Implementé paneles de filtros desplegables mediante el uso de *Bookmarks* (Marcadores) y botones de navegación integrados. Esto eliminó las pestañas nativas inferiores de Power BI, logrando un lienzo limpio, de paleta corporativa sofisticada y alto contraste semántico enfocado a la toma de decisiones.
+*   **Limpieza de Datos e Integridad:** Apliqué transformaciones previas en el motor de datos para excluir registros erróneos (cantidades inferiores a 1 unidad, precios unitarios negativos y muchos errores de inventario), garantizando que las métricas finales de la C-Suite estuvieran libres de ruido operativo.
+*   **Diseño de Interfaz Ejecutiva:** Implementé paneles de filtros desplegables y botones de navegación integrados. Esto eliminó las pestañas nativas inferiores de Power BI, logrando un lienzo limpio, de diseño corporativo, sofisticado y enfocado a la toma de decisiones.
 
 ---
 
