@@ -1,83 +1,62 @@
-# 📊 De Datos a Decisiones: Caso de Negocio y Auditoría Estratégica Global
+# 📊 De Datos a Decisiones: Auditoría Estratégica Global · Caso Tata C-Suite
 
-<blockquote>
- <h3>🚀 El Gancho Ejecutivo</h3>
- <p>Sistema de auditoría estratégica e inteligencia interactiva diseñado para la C-Suite con el fin de proteger el margen operativo, mitigar el riesgo de fuga en cuentas VIP y optimizar la inversión en la estrategia de expansión internacional. Una solución analítica completa que transforma más de 5 millones de registros comerciales crudos en directrices de negocio inmediatas.</p>
- <hr>
- <p>💡 <strong>Contexto del Proyecto:</strong> Este caso de negocio fue desarrollado como parte de la <strong>Tata Data Visualization Job Simulation</strong> en <a href="https://www.theforage.com/simulations/tata/data-visualisation-p5xo">Forage</a>, resolviendo requerimientos analíticos reales planteados por los roles de liderazgo (CEO y CMO) de <strong>Tata Insights Group</strong>.</p>
-</blockquote>
+> **El CEO y el CMO me pidieron gráficos. Les entregué un sistema de alertas.**
+
+💡 *Caso desarrollado en la Tata Data Visualization Job Simulation ([Forage](https://www.theforage.com/simulations/tata/data-visualisation-p5xo)), resolviendo requerimientos analíticos reales de los roles de liderazgo de Tata Insights Group.*
 
 ---
 
----
+## ☕ La Reunión Inicial
 
-## ☕ La Reunión Inicial: Cuando el Negocio Desafía al Dato
+Todo comenzó con una de esas reuniones de lunes por la mañana que se alargan más de la cuenta. El CEO y el CMO presentaron una lista de peticiones estándar: ver la facturación mensual de 2011, los 10 países con más ingresos y el ranking de mejores clientes.
 
-Todo comenzó con una de esas reuniones de lunes por la mañana que se alargan más de la cuenta. El **CEO** y el **CMO** me presentaron una lista de peticiones estándar. Querían gráficos limpios: ver la facturación mensual de 2011, saber cuáles eran los 10 países con más ingresos (sin contar Reino Unido) y conocer a sus 10 mejores clientes.
+Decidí no limitarme a entregar gráficos planos en pestañas. El reto real no era *dibujar los datos*, sino cruzarlos para responder a los verdaderos dolores de cabeza de la junta directiva.
 
-Pero decidí que no iba a limitarme a entregarles una serie de gráficos planos en pestañas. El reto real no era *"dibujar los datos"*, sino cruzarlos para responder a los verdaderos dolores de cabeza de la junta directiva.
+### Los tres problemas que no habían formulado todavía
 
-### 🎯 Los Dolores de Cabeza de la C-Suite (Reto Corporativo)
-
-*   **Sección 1: El Control del Negocio (Vista Global):** ¿Cómo aseguramos que la facturación total no dependa de un "producto milagro"? Necesitamos validar si el pronóstico del año entrante es lo suficientemente sostenible para respaldar el plan comercial actual.
-*   **Sección 2: La Fuga de Clientes (Foco CRM & Marketing):** No basta con saber quiénes compran más. ¿Dónde se localiza exactamente la inactividad? ¿Estamos perdiendo cuentas críticas en el Top 10 histórico sin darnos cuenta?
-*   **Sección 3: La Expansión Inteligente (Foco Operaciones):** ¿Cómo elegir el próximo mercado internacional basándonos en la rentabilidad real del ticket medio y no solo en un volumen de pedidos engañoso?
+- **Control del negocio:** ¿La facturación depende de algún producto estrella? ¿El pronóstico del año siguiente aguanta el plan comercial actual?
+- **Fuga de clientes:** ¿Estamos perdiendo cuentas críticas del Top 10 histórico sin darnos cuenta?
+- **Expansión inteligente:** ¿Cómo elegir el próximo mercado internacional basándonos en margen real y no en volumen de pedidos engañoso?
 
 ---
 
-## 🖥️ Arquitectura del Caso y Soluciones Estratégicas
+## 📊 Lo que encontré
 
-### 📊 Sección 1: Desempeño Comercial y Pronóstico Global
-*Foco del CEO y CMO: Diagnóstico Macro y Resiliencia Temporal*
+### Sección 1: El negocio está diversificado pero tiene un pico crítico
 
 <p align="center">
-  <img src="https://github.com/Elian-digital/powerbi-executive-analytics-case/blob/main/images/pagina-1.png?raw=true" alt="Desempeño Comercial y Pronóstico Global" width="90%">
+  <img src="https://github.com/Elian-digital/powerbi-executive-analytics-tata-job-simulation/blob/main/images/pagina-1.png?raw=true" width="90%">
 </p>
 
-*   **Mitigación del Riesgo Operativo:** Facturar **$9 mill.** repartidos en un catálogo de **3.780 SKUs** demuestra que el negocio goza de una excelente diversificación de ingresos; la estructura comercial no depende de productos estrella, blindando la estabilidad financiera ante variaciones en la demanda.
-*   **Concentración en el Q4:** Los ingresos muestran estabilidad durante los primeros meses del año, experimentando una **aceleración exponencial en el último trimestre**. Este comportamiento marca el pico estacional crítico donde el CMO debe concentrar el presupuesto publicitario.
-*   **Estabilidad del Pronóstico:** El modelo predictivo proyecta un comportamiento controlado y sostenible para el inicio de 2012, lo que valida la continuidad del plan estratégico vigente sin necesidad de aplicar ajustes presupuestarios drásticos.
+Facturar **$9M** repartidos en **3.780 SKUs** demuestra que no hay dependencia de productos estrella, nuestra estructura financiera es resistente. Pero los ingresos se aceleran exponencialmente en el Q4: ahí es donde el CMO debe concentrar el presupuesto. El modelo predictivo confirma un inicio de 2012 estable, sin necesidad de ajustes drásticos.
 
----
-
-### 👥 Sección 2: Análisis y Comportamiento de Clientes (CRM)
-*Foco del CMO: Alertas de Abandono y Salud del Funnel*
+### Sección 2: El 14% del revenue es anónimo y uno de los Top 10 ya no compra
 
 <p align="center">
-  <img src="https://github.com/Elian-digital/powerbi-executive-analytics-case/blob/main/images/pagina-2.png?raw=true" alt="Análisis y Comportamiento de Clientes" width="90%">
+  <img src="https://github.com/Elian-digital/powerbi-executive-analytics-tata-job-simulation/blob/main/images/pagina-2.png?raw=true" width="90%">
 </p>
 
-*   **Fuga en el Onboarding (Abandono Temprano):** La alta densidad de puntos rojos concentrados en la zona de baja frecuencia del gráfico de dispersión confirma que nuestro **43% de inactividad global (+60 días)** ocurre inmediatamente después de los primeros pedidos. El foco de marketing debe ser optimizar la experiencia de bienvenida y retención temprana.
-*   **Rescate Crítico de Cuenta VIP:** El módulo de retención identificó que el cliente **ID 12346** —uno de nuestros diez compradores históricos más valiosos— se encuentra actualmente **inactivo**. Se requiere una intervención directa y personalizada del equipo de cuentas para reactivarlo antes de una pérdida definitiva.
-*   **Identificación del 14% Anónimo:** Un **14% de los ingresos** proviene de transacciones sin registrar. Implementar incentivos de registro inmediato en el *checkout* es prioritario para capturar estos perfiles en el CRM y mitigar proactivamente su inactividad.
+El cliente **ID 12346** (uno de los diez compradores históricos más valiosos) está inactivo. Requiere intervención directa antes de una pérdida definitiva. Además, el **43% de inactividad global** ocurre en los primeros pedidos: el problema no es la retención a largo plazo, es el onboarding. Y un **14% de ingresos** viene de transacciones sin registrar en CRM, clientes invisibles que no se pueden retener porque no existen en el sistema.
 
----
-
-### 🌍 Sección 3: Estrategia de Expansión Global
-*Foco del CEO: Maximización del Margen e Inversión Eficiente*
+### Sección 3: Australia y Singapur, sí. Líbano, no
 
 <p align="center">
-  <img src="https://github.com/Elian-digital/powerbi-executive-analytics-case/blob/main/images/pagina-3.png?raw=true" alt="Estrategia de Expansión Global" width="90%">
+  <img src="https://github.com/Elian-digital/powerbi-executive-analytics-tata-job-simulation/blob/main/images/pagina-3.png?raw=true" width="90%">
 </p>
 
-*   **Prioridades de Expansión Premium:** **Australia y Singapur** se consolidan como los nichos más rentables debido a su elevado ticket medio (de hasta $2,5 mil). Representan una oportunidad óptima para expandir el negocio maximizando el margen con un bajo esfuerzo logístico.
-*   **Aislamiento de Anomalías de Datos:** El análisis profundo detectó que el volumen de **Líbano ($1,7 mil)** es un indicador engañoso al depender de un **único pedido aislado**. Se descarta formalmente cualquier inversión de infraestructura en esta región por el alto riesgo de volatilidad.
-*   **Estrategia Dual de Captación:** Se establece un plan de dos vías: mantener acciones de volumen para mercados consolidados como Países Bajos (91 pedidos / $3,0 mil de ticket medio) y desplegar captación selectiva para los nichos de alto margen detectados.
+**Australia y Singapur** tienen el ticket medio más alto (hasta $2,5K) con volumen suficiente para justificar inversión. **Líbano** aparece con $1,7K de ticket pero depende de un único pedido aislado, por lo que queda descartado por riesgo de volatilidad. La estrategia de expansión es dual: volumen en mercados consolidados (Países Bajos: 91 pedidos / $3K ticket) y captación selectiva en los nichos de alto margen.
 
 ---
 
-## 🛠️ Detrás de la Pantalla: Competencias y Back-End Técnico
+## 🛠️ Backend Técnico
 
-Para que los directivos pudieran consumir estos insights con un solo vistazo en una sola vista *scannable*, fue necesario transformar por completo la estructura técnica de los datos crudos:
-
-*   **Modelado Dimensional Avanzado (Star Schema):** La base de datos original venía integrada en una única tabla plana. Diseñé un modelo en estrella real, separando los datos lógicos en una tabla de hechos (`Fact_Sales`) vinculada a dimensiones limpias y optimizadas (`Dim_Customers`, `Dim_Products`, `Dim_Geography`).
-*   **Limpieza de Datos e Integridad:** Apliqué transformaciones previas en el motor de datos para excluir registros erróneos (cantidades inferiores a 1 unidad, precios unitarios negativos y muchos errores de inventario), garantizando que las métricas finales de la C-Suite estuvieran libres de ruido operativo.
-*   **Diseño de Interfaz Ejecutiva:** Implementé paneles de filtros desplegables y botones de navegación integrados. Esto eliminó las pestañas nativas inferiores de Power BI, logrando un lienzo limpio, de diseño corporativo, sofisticado y enfocado a la toma de decisiones.
+- **Modelado Dimensional:** La base de datos original era una única tabla plana. Diseñé un Star Schema real: `Fact_Sales` + dimensiones limpias (`Dim_Customers`, `Dim_Products`, `Dim_Geography`).
+- **Limpieza de datos:** Exclusión de registros erróneos (cantidades < 1 unidad, precios negativos, errores de inventario) para garantizar que los KPIs de la C-Suite estuvieran libres de ruido.
+- **Diseño de interfaz ejecutiva:** Paneles de filtros desplegables y navegación integrada que eliminan las pestañas nativas de Power BI; lienzo limpio, corporativo, orientado a decisión.
 
 ---
 
-## 💼 Habilidades Blandas Demostradas en este Caso
-
-*   **Pensamiento Crítico Aplicado:** Capacidad de refutar peticiones iniciales básicas para proponer análisis cruzados de alto impacto (identificación de alertas de riesgo en lugar de simples rankings).
-*   **Comunicación Ejecutiva:** Traducción directa de métricas densas de bases de datos a conclusiones de negocio claras para la toma de decisiones de la directiva.
-*   **Proactividad Comercial:** Diseño de sistemas de alertas tempranas para proteger los activos más valiosos de la organización (clientes premium inactivos).
+### 🤝 Contacto
+- **LinkedIn:** [linkedin.com/in/eliandaghoum](https://www.linkedin.com/in/eliandaghoum/)
+- **Email:** eliandaghoum@gmail.com
+- **GitHub:** [@Elian-digital](https://github.com/Elian-digital)
